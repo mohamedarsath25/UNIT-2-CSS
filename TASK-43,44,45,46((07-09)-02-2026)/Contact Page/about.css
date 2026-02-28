@@ -1,0 +1,85 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI', sans-serif;
+}
+body{
+background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+color:white;
+padding:20px;
+}
+h1{
+color:#00ffd5;
+letter-spacing:2px;
+margin-bottom:10px;
+}
+center img{
+margin-top:10px;
+border-radius:15px;
+box-shadow:0 0 15px rgba(0,0,0,0.6);
+}
+nav{
+background: rgba(0,0,0,0.6);
+padding:15px;
+margin-top:15px;
+border-radius:10px;
+backdrop-filter: blur(8px);
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-size:18px;
+padding:8px 15px;
+border-radius:20px;
+transition:0.3s;
+}
+nav a:hover{
+background:#00ffd5;
+color:black;
+box-shadow:0 0 10px #00ffd5;
+}
+h3{
+margin-top:25px;
+margin-bottom:10px;
+color:#00ffd5;
+}
+p{
+margin-bottom:15px;
+line-height:1.6;
+}
+ul{
+margin-left:30px;
+margin-bottom:20px;
+}
+form{
+background: rgba(0,0,0,0.5);
+padding:20px;
+width:300px;
+border-radius:15px;
+box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+input, textarea{
+width:100%;
+padding:8px;
+margin-top:5px;
+margin-bottom:15px;
+border:none;
+border-radius:10px;
+}
+input[type="submit"],
+input[type="reset"]{
+background:#00ffd5;
+color:black;
+cursor:pointer;
+transition:0.3s;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover{
+box-shadow:0 0 10px #00ffd5;
+}
+center p{
+margin-top:10px;
+}

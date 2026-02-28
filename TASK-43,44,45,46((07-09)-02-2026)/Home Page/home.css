@@ -1,0 +1,70 @@
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Segoe UI', sans-serif;
+}
+body{
+background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+color:white;
+}
+img{
+margin-top:20px;
+border-radius:15px;
+box-shadow:0 0 20px rgba(0,0,0,0.6);
+}
+.navbar{
+background: rgba(0,0,0,0.7);
+backdrop-filter: blur(10px);
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 50px;
+margin-top:20px;
+}
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#00ffd5;
+letter-spacing:2px;
+}
+.navlink a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-size:18px;
+padding:8px 15px;
+border-radius:20px;
+transition:0.3s;
+}
+.navlink a:hover{
+background:#00ffd5;
+color:black;
+box-shadow:0 0 10px #00ffd5;
+}
+.container{
+background: rgba(0,0,0,0.5);
+margin:40px;
+padding:30px;
+border-radius:15px;
+box-shadow:0 0 15px rgba(0,0,0,0.5);
+}
+.head{
+color:#00ffd5;
+margin-bottom:20px;
+font-size:28px;
+}
+p{
+margin-bottom:15px;
+}
+ul{
+margin-left:30px;
+margin-bottom:20px;
+}
+footer{
+background: rgba(0,0,0,0.8);
+padding:15px;
+margin-top:30px;
+font-size:16px;
+}
